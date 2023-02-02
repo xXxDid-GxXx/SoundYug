@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YUG</title>
+     <style>
+
+      body{
+        background-image: url(Image/Frame\ 1.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+      }
+
+      .column{
+        float: left;
+        padding: 5px;
+        margin: 10px;
+        width: 30%;
+      }
+
+      .row::after{
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .Cover{
+        width: 55%;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px;
+        display: block;
+        
+      }
+
+      .Text{
+        color: aliceblue;
+        size: 50px;
+        text-align: center;
+      }
+
+      .Audio{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        display: block;
+      }
+
+      .TextMain{
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+        color: aliceblue;
+      }
+
+
+     </style>
+  </head>
+
+  <body>
+
+    <p class="TextMain"><strong>YUG</strong></p>
+
+    <div class="row">
+
+      <div class="column">
+        <img class="Cover" src="Image/Сливки.png" alt="slivki">
+        <audio class="Audio" src="Sound/1.) Yug - ВАП (WAP).mp3" controls></audio>
+        <p class="Text">YUG - WAP</p>
+      </div>
+
+      <div class="column">
+        <img class="Cover" src="Image/Godless.png" alt="goodless">
+        <audio class="Audio" src="Sound/Godless.mp3" controls></audio>
+        <p class="Text"> YUG - Godless</p>
+      </div>
+
+      <div class="column">
+        <img class="Cover" src="Image/Улицы.jpg" alt="street">
+        <audio class="Audio" src="Sound/Yug & Kavikavi - Улицы.mp3" controls></audio>
+        <p class="Text">YUG - Street</p>
+      </div>
+
+      
+
+    </div>
+  </body>
+</html>
